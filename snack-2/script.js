@@ -5,7 +5,7 @@ const n = Number(prompt('Inserisci un numero'))
 for( let arrayTwo= 0; arrayTwo < n; arrayTwo++){
     let arrayList= [];
 
-// generiamo un array formato da 10 numeri random
+// generiamo dentro l'array generati 10 numeri random
 for( let i = 0; i < 10; i++ ) {
     arrayList.push(Math.floor(Math.random() * 100) + 1);
 }
